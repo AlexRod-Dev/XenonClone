@@ -1,2 +1,57 @@
 ﻿  GameEngine.cpp
-  Engine.vcxproj -> C:\Users\alexa\Documents\GitHub\XenonClone\x64\Debug\Engine.exe
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(30,7): error C2143: syntax error: missing ';' before '&'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(30,7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(30,19): error C2238: unexpected token(s) preceding ';'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(43,12): error C2143: syntax error: missing ';' before '*'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(43,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(43,29): error C2238: unexpected token(s) preceding ';'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(44,8): error C2143: syntax error: missing ';' before '*'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(44,8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(44,28): error C2238: unexpected token(s) preceding ';'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(45,17): error C2143: syntax error: missing ';' before '*'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(45,17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(45,29): error C2238: unexpected token(s) preceding ';'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(47,18): error C2065: 'World': undeclared identifier
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(47,7): error C2923: 'std::unique_ptr': 'World' is not a valid template type argument for parameter '_Ty'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(47,18): message : see declaration of 'World'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(47,7): error C2976: 'std::unique_ptr': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(3099,1): message : see declaration of 'std::unique_ptr'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\SDLWrapper.h(8,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\Alex\Documents\Github\XenonClone\Engine\Window.h(5,17): warning C4099: 'SDL_Window': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_video.h(90,16): message : see declaration of 'SDL_Window'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\Window.h(6,18): warning C4099: 'SDL_Surface': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_surface.h(70,16): message : see declaration of 'SDL_Surface'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\Renderer.h(3,19): warning C4099: 'SDL_Renderer': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_render.h(131,8): message : see declaration of 'SDL_Renderer'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\Renderer.h(11,20): warning C4099: 'SDL_Renderer': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\Renderer.h(3,7): message : see declaration of 'SDL_Renderer'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\Texture.h(5,18): warning C4099: 'SDL_Texture': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_render.h(137,8): message : see declaration of 'SDL_Texture'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\Texture.h(6,15): warning C4099: 'SDL_Rect': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_rect.h(77,16): message : see declaration of 'SDL_Rect'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.cpp(9,10): fatal  error C1083: Cannot open include file: 'Components.h': No such file or directory
+  Texture.cpp
+C:\Users\Alex\Documents\Github\XenonClone\Engine\Texture.h(5,18): warning C4099: 'SDL_Texture': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_render.h(137,8): message : see declaration of 'SDL_Texture'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\Texture.h(6,15): warning C4099: 'SDL_Rect': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_rect.h(77,16): message : see declaration of 'SDL_Rect'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(30,7): error C2143: syntax error: missing ';' before '&'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(30,7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(30,19): error C2238: unexpected token(s) preceding ';'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(43,12): error C2143: syntax error: missing ';' before '*'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(43,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(43,29): error C2238: unexpected token(s) preceding ';'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(44,8): error C2143: syntax error: missing ';' before '*'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(44,8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(44,28): error C2238: unexpected token(s) preceding ';'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(45,17): error C2143: syntax error: missing ';' before '*'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(45,17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(45,29): error C2238: unexpected token(s) preceding ';'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(47,18): error C2065: 'World': undeclared identifier
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(47,7): error C2923: 'std::unique_ptr': 'World' is not a valid template type argument for parameter '_Ty'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(47,18): message : see declaration of 'World'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(47,7): error C2976: 'std::unique_ptr': too few template arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(3099,1): message : see declaration of 'std::unique_ptr'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\Texture.cpp(35,2): warning C4150: deletion of pointer to incomplete type 'SDL_Texture'; no destructor called
+C:\Users\Alex\Documents\Github\XenonClone\Engine\Texture.h(5,7): message : see declaration of 'SDL_Texture'
+  Generating Code...
