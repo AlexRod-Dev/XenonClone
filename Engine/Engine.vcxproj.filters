@@ -19,6 +19,12 @@
     <Filter Include="Source Files\SDLClasses">
       <UniqueIdentifier>{a7bb5d4a-8a64-4da1-8412-914b9832574f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{9175a95b-1d5d-45f3-a417-49575ddccf2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{c0ed7ad3-bc4b-4c1a-839d-7326fb04f36e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameEngine.h">
@@ -39,6 +45,15 @@
     <ClInclude Include="SDLWrapper.h">
       <Filter>Header Files\SDLClasses</Filter>
     </ClInclude>
+    <ClInclude Include="LogOutput.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="MathLibrary.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameEngine.cpp">
@@ -58,6 +73,15 @@
     </ClCompile>
     <ClCompile Include="SDLWrapper.cpp">
       <Filter>Source Files\SDLClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="LogOutput.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="MathLibrary.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>Source Files\Utilities</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
