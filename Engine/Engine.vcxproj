@@ -139,6 +139,7 @@
     <ClInclude Include="EntityFilters.h" />
     <ClInclude Include="GameEngine.h" />
     <ClInclude Include="InitError.h" />
+    <ClInclude Include="Input.h" />
     <ClInclude Include="LogOutput.h" />
     <ClInclude Include="Manager.h" />
     <ClInclude Include="ManagerRegistry.h" />
@@ -157,6 +158,7 @@
     <ClCompile Include="EntityComponentSystem.cpp" />
     <ClCompile Include="GameEngine.cpp" />
     <ClCompile Include="InitError.cpp" />
+    <ClCompile Include="Input.cpp" />
     <ClCompile Include="LogOutput.cpp" />
     <ClCompile Include="Manager.cpp" />
     <ClCompile Include="ManagerRegistry.cpp" />

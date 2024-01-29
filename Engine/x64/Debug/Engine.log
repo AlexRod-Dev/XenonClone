@@ -1,8 +1,29 @@
-﻿  ColliderComponent.cpp
+﻿  GameEngine.cpp
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(5,19): warning C4099: 'SDL_Renderer': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_render.h(131,8): message : see declaration of 'SDL_Renderer'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\SDLWrapper.h(8,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\Alex\Documents\Github\XenonClone\Engine\Window.h(5,17): warning C4099: 'SDL_Window': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_video.h(90,16): message : see declaration of 'SDL_Window'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\Window.h(6,18): warning C4099: 'SDL_Surface': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_surface.h(70,16): message : see declaration of 'SDL_Surface'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\Renderer.h(3,19): warning C4099: 'SDL_Renderer': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(5,7): message : see declaration of 'SDL_Renderer'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\Renderer.h(11,20): warning C4099: 'SDL_Renderer': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\Renderer.h(3,7): message : see declaration of 'SDL_Renderer'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\Texture.h(5,18): warning C4099: 'SDL_Texture': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_render.h(137,8): message : see declaration of 'SDL_Texture'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\Texture.h(6,15): warning C4099: 'SDL_Rect': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_rect.h(77,16): message : see declaration of 'SDL_Rect'
 C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(219,52): warning C4834: discarding return value of function with 'nodiscard' attribute
-C:\Users\Alex\Documents\Github\XenonClone\Engine\ColliderComponent.cpp(10,24): error C2039: 'GetEngine': is not a member of 'GameEngine'
-C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(5,7): message : see declaration of 'GameEngine'
-C:\Users\Alex\Documents\Github\XenonClone\Engine\ColliderComponent.cpp(10,33): error C3861: 'GetEngine': identifier not found
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.cpp(28,16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.cpp(44,16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.cpp(49,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.cpp(77,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Input.cpp
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(5,19): warning C4099: 'SDL_Renderer': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_render.h(131,8): message : see declaration of 'SDL_Renderer'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\Input.cpp(36,2): warning C4150: deletion of pointer to incomplete type '_SDL_GameController'; no destructor called
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_gamecontroller.h(57,8): message : see declaration of '_SDL_GameController'
   SpriteComponent.cpp
 C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(219,52): warning C4834: discarding return value of function with 'nodiscard' attribute
 C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.h(8,18): warning C4099: 'SDL_Texture': type name first seen using 'struct' now seen using 'class'
@@ -13,13 +34,20 @@ C:\Users\Alex\Documents\Github\XenonClone\Engine\Texture.h(5,18): warning C4099:
 C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.h(8,7): message : see declaration of 'SDL_Texture'
 C:\Users\Alex\Documents\Github\XenonClone\Engine\Texture.h(6,15): warning C4099: 'SDL_Rect': type name first seen using 'struct' now seen using 'class'
 C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.h(9,7): message : see declaration of 'SDL_Rect'
-C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.cpp(13,49): error C2039: 'GetRenderer': is not a member of 'GameEngine'
-C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(5,7): message : see declaration of 'GameEngine'
-C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.cpp(13,60): error C3861: 'GetRenderer': identifier not found
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(5,19): warning C4099: 'SDL_Renderer': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_render.h(131,8): message : see declaration of 'SDL_Renderer'
 C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.cpp(14,54): warning C4305: 'argument': truncation from 'int' to 'Uint8'
 C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.cpp(14,51): warning C4309: 'argument': truncation of constant value
 C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.cpp(14,46): warning C4309: 'argument': truncation of constant value
 C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.cpp(14,41): warning C4309: 'argument': truncation of constant value
-  World.cpp
-C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(219,52): warning C4834: discarding return value of function with 'nodiscard' attribute
+  Texture.cpp
+C:\Users\Alex\Documents\Github\XenonClone\Engine\Texture.h(5,18): warning C4099: 'SDL_Texture': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_render.h(137,8): message : see declaration of 'SDL_Texture'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\Texture.h(6,15): warning C4099: 'SDL_Rect': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_rect.h(77,16): message : see declaration of 'SDL_Rect'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(5,19): warning C4099: 'SDL_Renderer': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_render.h(131,8): message : see declaration of 'SDL_Renderer'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\Texture.cpp(35,2): warning C4150: deletion of pointer to incomplete type 'SDL_Texture'; no destructor called
+C:\Users\Alex\Documents\Github\XenonClone\Engine\Texture.h(5,7): message : see declaration of 'SDL_Texture'
   Generating Code...
+  Engine.vcxproj -> C:\Users\Alex\Documents\Github\XenonClone\x64\Debug\Engine.lib
