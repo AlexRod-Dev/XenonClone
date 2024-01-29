@@ -1,4 +1,25 @@
-﻿  Manager.cpp
-  ManagerRegistry.cpp
+﻿  ColliderComponent.cpp
+C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(219,52): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\Alex\Documents\Github\XenonClone\Engine\ColliderComponent.cpp(10,24): error C2039: 'GetEngine': is not a member of 'GameEngine'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(5,7): message : see declaration of 'GameEngine'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\ColliderComponent.cpp(10,33): error C3861: 'GetEngine': identifier not found
+  SpriteComponent.cpp
+C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(219,52): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.h(8,18): warning C4099: 'SDL_Texture': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_render.h(137,8): message : see declaration of 'SDL_Texture'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.h(9,15): warning C4099: 'SDL_Rect': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_rect.h(77,16): message : see declaration of 'SDL_Rect'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\Texture.h(5,18): warning C4099: 'SDL_Texture': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.h(8,7): message : see declaration of 'SDL_Texture'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\Texture.h(6,15): warning C4099: 'SDL_Rect': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.h(9,7): message : see declaration of 'SDL_Rect'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.cpp(13,49): error C2039: 'GetRenderer': is not a member of 'GameEngine'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(5,7): message : see declaration of 'GameEngine'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.cpp(13,60): error C3861: 'GetRenderer': identifier not found
+C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.cpp(14,54): warning C4305: 'argument': truncation from 'int' to 'Uint8'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.cpp(14,51): warning C4309: 'argument': truncation of constant value
+C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.cpp(14,46): warning C4309: 'argument': truncation of constant value
+C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.cpp(14,41): warning C4309: 'argument': truncation of constant value
+  World.cpp
+C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(219,52): warning C4834: discarding return value of function with 'nodiscard' attribute
   Generating Code...
-  Engine.vcxproj -> C:\Users\Alex\Documents\Github\XenonClone\x64\Debug\Engine.lib
