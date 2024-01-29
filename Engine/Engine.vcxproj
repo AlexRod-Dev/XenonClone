@@ -135,6 +135,8 @@
     <ClInclude Include="GameEngine.h" />
     <ClInclude Include="InitError.h" />
     <ClInclude Include="LogOutput.h" />
+    <ClInclude Include="Manager.h" />
+    <ClInclude Include="ManagerRegistry.h" />
     <ClInclude Include="MathLibrary.h" />
     <ClInclude Include="Renderer.h" />
     <ClInclude Include="SDLWrapper.h" />
@@ -146,7 +148,8 @@
     <ClCompile Include="GameEngine.cpp" />
     <ClCompile Include="InitError.cpp" />
     <ClCompile Include="LogOutput.cpp" />
-    <ClCompile Include="MathLibrary.cpp" />
+    <ClCompile Include="Manager.cpp" />
+    <ClCompile Include="ManagerRegistry.cpp" />
     <ClCompile Include="Renderer.cpp" />
     <ClCompile Include="SDLWrapper.cpp" />
     <ClCompile Include="Texture.cpp" />

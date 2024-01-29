@@ -25,6 +25,12 @@
     <Filter Include="Source Files\Utilities">
       <UniqueIdentifier>{c0ed7ad3-bc4b-4c1a-839d-7326fb04f36e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Manager">
+      <UniqueIdentifier>{1d8c62de-23f6-4957-aa53-690f40c68180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manager">
+      <UniqueIdentifier>{dab9cc99-2051-421f-b6ca-c5656ef567fc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameEngine.h">
@@ -54,6 +60,12 @@
     <ClInclude Include="Vector2D.h">
       <Filter>Header Files\Utilities</Filter>
     </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerRegistry.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameEngine.cpp">
@@ -77,11 +89,14 @@
     <ClCompile Include="LogOutput.cpp">
       <Filter>Source Files\Utilities</Filter>
     </ClCompile>
-    <ClCompile Include="MathLibrary.cpp">
-      <Filter>Source Files\Utilities</Filter>
-    </ClCompile>
     <ClCompile Include="Vector2D.cpp">
       <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerRegistry.cpp">
+      <Filter>Source Files\Manager</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
