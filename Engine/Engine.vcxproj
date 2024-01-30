@@ -133,17 +133,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Animation.h" />
+    <ClInclude Include="B2DebugDraw.h" />
     <ClInclude Include="ColliderComponent.h" />
     <ClInclude Include="Components.h" />
+    <ClInclude Include="Enemy.h" />
     <ClInclude Include="EntityComponentSystem.h" />
     <ClInclude Include="EntityFilters.h" />
+    <ClInclude Include="Explosion.h" />
     <ClInclude Include="GameEngine.h" />
+    <ClInclude Include="GameObject.h" />
     <ClInclude Include="InitError.h" />
     <ClInclude Include="Input.h" />
     <ClInclude Include="LogOutput.h" />
     <ClInclude Include="Manager.h" />
     <ClInclude Include="ManagerRegistry.h" />
     <ClInclude Include="MathLibrary.h" />
+    <ClInclude Include="Pawn.h" />
+    <ClInclude Include="Projectile.h" />
     <ClInclude Include="Renderer.h" />
     <ClInclude Include="SDLWrapper.h" />
     <ClInclude Include="SpriteComponent.h" />
@@ -155,13 +161,18 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ColliderComponent.cpp" />
+    <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="EntityComponentSystem.cpp" />
+    <ClCompile Include="Explosion.cpp" />
     <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="InitError.cpp" />
     <ClCompile Include="Input.cpp" />
     <ClCompile Include="LogOutput.cpp" />
     <ClCompile Include="Manager.cpp" />
     <ClCompile Include="ManagerRegistry.cpp" />
+    <ClCompile Include="Pawn.cpp" />
+    <ClCompile Include="Projectile.cpp" />
     <ClCompile Include="Renderer.cpp" />
     <ClCompile Include="SDLWrapper.cpp" />
     <ClCompile Include="SpriteComponent.cpp" />
