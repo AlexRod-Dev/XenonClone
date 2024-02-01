@@ -20,22 +20,28 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Companion.cpp" />
+    <ClCompile Include="EnemyProjectile.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="Level.cpp" />
+    <ClCompile Include="Loner.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="PlayerProjectile.cpp" />
     <ClCompile Include="PlayerProjectileHeavy.cpp" />
     <ClCompile Include="PlayerProjectileMedium.cpp" />
+    <ClCompile Include="Rusher.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Companion.h" />
+    <ClInclude Include="EnemyProjectile.h" />
     <ClInclude Include="GameManager.h" />
     <ClInclude Include="Level.h" />
+    <ClInclude Include="Loner.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="PlayerProjectile.h" />
     <ClInclude Include="PlayerProjectileHeavy.h" />
     <ClInclude Include="PlayerProjectileMedium.h" />
+    <ClInclude Include="Rusher.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

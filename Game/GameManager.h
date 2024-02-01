@@ -16,6 +16,12 @@ public:
 
 		indexToRemove = 0;
 
+		lonerSpawnTimer = 0.f;
+		lonerSpawnTimerMax = 100.f + (rand() % (110 - 100) + 1);
+
+		rusherSpawnTimer = 0.f;
+		rusherSpawnTimerMax = 190 + (rand() % (205 - 190) + 1);
+
 	};
 
 	~GameManager();
@@ -40,6 +46,9 @@ public:
 
 	void CreateLevel();
 
+	void SpawnEnemies();
+
+
 
 private:
 	static GameManager* m_instance;
@@ -49,4 +58,13 @@ private:
 	Player* player;
 
 	int indexToRemove;
+
+	int enemiesToSpawn;
+
+	//Spawn Timers
+	float lonerSpawnTimer;
+	float lonerSpawnTimerMax;
+
+	float rusherSpawnTimer;
+	float rusherSpawnTimerMax;
 };
