@@ -3,6 +3,7 @@
 #include "EntityComponentSystem.h"
 #include "World.h"
 #include "Level.h"
+#include "Player.h"
 
 GameManager* GameManager::m_instance = nullptr;
 
@@ -27,6 +28,7 @@ void GameManager::CreateLevel()
 	{
 		world.CreateEntity<Level>();
 
+		player = world.CreateEntity<Player>();
 
 	}
 }

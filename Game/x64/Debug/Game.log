@@ -1,4 +1,4 @@
-﻿  Level.cpp
+﻿  PlayerProjectile.cpp
 C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(219,52): warning C4834: discarding return value of function with 'nodiscard' attribute
 C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.h(8,18): warning C4099: 'SDL_Texture': type name first seen using 'struct' now seen using 'class'
 C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_render.h(137,8): message : see declaration of 'SDL_Texture'
@@ -9,9 +9,44 @@ C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(231,33)
           [
               _Ty=int
           ]
-C:\Users\Alex\Documents\Github\XenonClone\Game\Level.cpp(21,45): message : see reference to function template instantiation 'T &Entity::AddComponent<TransformComponent,int,int>(int &&,int &&)' being compiled
+C:\Users\Alex\Documents\Github\XenonClone\Game\PlayerProjectile.cpp(31,46): message : see reference to function template instantiation 'T &Entity::AddComponent<ColliderComponent,PlayerProjectile*,int,int>(PlayerProjectile *&&,int &&,int &&)' being compiled
           with
           [
-              T=TransformComponent
+              T=ColliderComponent
           ]
+  PlayerProjectileHeavy.cpp
+C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(219,52): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.h(8,18): warning C4099: 'SDL_Texture': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_render.h(137,8): message : see declaration of 'SDL_Texture'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.h(9,15): warning C4099: 'SDL_Rect': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_rect.h(77,16): message : see declaration of 'SDL_Rect'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(5,19): warning C4099: 'SDL_Renderer': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_render.h(131,8): message : see declaration of 'SDL_Renderer'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(231,33): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Alex\Documents\Github\XenonClone\Game\PlayerProjectileHeavy.cpp(33,46): message : see reference to function template instantiation 'T &Entity::AddComponent<ColliderComponent,PlayerProjectileHeavy*,int,int>(PlayerProjectileHeavy *&&,int &&,int &&)' being compiled
+          with
+          [
+              T=ColliderComponent
+          ]
+  PlayerProjectileMedium.cpp
+C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(219,52): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.h(8,18): warning C4099: 'SDL_Texture': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_render.h(137,8): message : see declaration of 'SDL_Texture'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.h(9,15): warning C4099: 'SDL_Rect': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_rect.h(77,16): message : see declaration of 'SDL_Rect'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(231,33): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Alex\Documents\Github\XenonClone\Game\PlayerProjectileMedium.cpp(33,46): message : see reference to function template instantiation 'T &Entity::AddComponent<ColliderComponent,PlayerProjectileMedium*,int,int>(PlayerProjectileMedium *&&,int &&,int &&)' being compiled
+          with
+          [
+              T=ColliderComponent
+          ]
+  Generating Code...
   Game.vcxproj -> C:\Users\Alex\Documents\Github\XenonClone\x64\Debug\Game.exe
