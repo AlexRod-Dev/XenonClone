@@ -1,18 +1,21 @@
-﻿  Rusher.cpp
+﻿  CompanionPickup.cpp
 C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(219,52): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\Alex\Documents\Github\XenonClone\Game\GameManager.h(24,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_render.h(131,20): warning C4099: 'SDL_Renderer': type name first seen using 'class' now seen using 'struct'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(5,7): message : see declaration of 'SDL_Renderer'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_render.h(132,41): warning C4099: 'SDL_Renderer': type name first seen using 'class' now seen using 'struct'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_render.h(131,8): message : see declaration of 'SDL_Renderer'
 C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.h(8,18): warning C4099: 'SDL_Texture': type name first seen using 'struct' now seen using 'class'
 C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_render.h(137,8): message : see declaration of 'SDL_Texture'
 C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.h(9,15): warning C4099: 'SDL_Rect': type name first seen using 'struct' now seen using 'class'
 C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_rect.h(77,16): message : see declaration of 'SDL_Rect'
-C:\Users\Alex\Documents\Github\XenonClone\Game\Rusher.cpp(9,74): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Alex\Documents\Github\XenonClone\Game\Rusher.cpp(9,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Alex\Documents\Github\XenonClone\Game\Rusher.cpp(34,21): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Game\CompanionPickup.cpp(13,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(231,33): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
           with
           [
               _Ty=int
           ]
-C:\Users\Alex\Documents\Github\XenonClone\Game\Rusher.cpp(27,46): message : see reference to function template instantiation 'T &Entity::AddComponent<ColliderComponent,Rusher*,int,int>(Rusher *&&,int &&,int &&)' being compiled
+C:\Users\Alex\Documents\Github\XenonClone\Game\CompanionPickup.cpp(27,46): message : see reference to function template instantiation 'T &Entity::AddComponent<ColliderComponent,CompanionPickup*,int,int>(CompanionPickup *&&,int &&,int &&)' being compiled
           with
           [
               T=ColliderComponent

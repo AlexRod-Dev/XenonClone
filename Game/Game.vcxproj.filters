@@ -31,6 +31,12 @@
     <Filter Include="Source Files\Enemies">
       <UniqueIdentifier>{6e750d7a-3fc8-495b-8379-4274b9a78e58}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Pickups">
+      <UniqueIdentifier>{db2c4448-b753-4028-83ae-7ae23d4df2b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pickups">
+      <UniqueIdentifier>{fd41e29b-5901-4311-8c9b-51631908b63b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp">
@@ -66,6 +72,18 @@
     <ClCompile Include="Rusher.cpp">
       <Filter>Source Files\Enemies</Filter>
     </ClCompile>
+    <ClCompile Include="Pickup.cpp">
+      <Filter>Source Files\Pickups</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponPickup.cpp">
+      <Filter>Source Files\Pickups</Filter>
+    </ClCompile>
+    <ClCompile Include="CompanionPickup.cpp">
+      <Filter>Source Files\Pickups</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldPickup.cpp">
+      <Filter>Source Files\Pickups</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Level.h">
@@ -97,6 +115,18 @@
     </ClInclude>
     <ClInclude Include="Rusher.h">
       <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Pickup.h">
+      <Filter>Header Files\Pickups</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponPickup.h">
+      <Filter>Header Files\Pickups</Filter>
+    </ClInclude>
+    <ClInclude Include="CompanionPickup.h">
+      <Filter>Header Files\Pickups</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldPickup.h">
+      <Filter>Header Files\Pickups</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

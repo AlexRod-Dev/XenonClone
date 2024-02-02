@@ -43,7 +43,7 @@ void PlayerProjectileMedium::Update()
 
 	distance += speed;
 
-	projectileTransform->velocity.y = -1 * speed;
+	projectileTransform->velocity.x = 1 * speed;
 
 	//If the distance traveled is greater than the projectile range, destroy the projectile
 	if (distance > range)

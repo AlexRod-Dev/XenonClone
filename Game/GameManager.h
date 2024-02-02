@@ -7,6 +7,7 @@
 
 class Player;
 
+
 class GameManager  : public GameObject
 {
 public:
@@ -21,6 +22,11 @@ public:
 
 		rusherSpawnTimer = 0.f;
 		rusherSpawnTimerMax = 190 + (rand() % (205 - 190) + 1);
+
+		pickupSpawnTimer = 0.f;
+		pickupSpawnTimerMax = 200.f + (rand() % (210 - 200) + 1);
+
+		pickupsToSpawn = 0;
 
 	};
 
@@ -48,6 +54,8 @@ public:
 
 	void SpawnEnemies();
 
+	void SpawnPickups();
+
 
 
 private:
@@ -67,4 +75,9 @@ private:
 
 	float rusherSpawnTimer;
 	float rusherSpawnTimerMax;
+
+	float pickupSpawnTimer;
+	float pickupSpawnTimerMax;
+
+	int pickupsToSpawn;
 };

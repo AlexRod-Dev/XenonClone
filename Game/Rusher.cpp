@@ -6,7 +6,7 @@
 Rusher::Rusher()
 {
 	
-	startPosition = Vector2D(((rand() > RAND_MAX / 2) ? -50 : 1000), rand() % 1000) ;
+	startPosition = Vector2D(((rand() > RAND_MAX / 2) ? -50 : 1050), rand() % 750) ;
 	speed = 0.f;
 
 	this->maxHp = 100.f;

@@ -6,6 +6,9 @@
 #include "Player.h"
 #include "Loner.h"
 #include "Rusher.h"
+#include "WeaponPickup.h"
+#include "CompanionPickup.h"
+#include "ShieldPickup.h"
 
 GameManager* GameManager::m_instance = nullptr;
 
@@ -23,6 +26,7 @@ void GameManager::Update()
 {
 
 	SpawnEnemies();
+	SpawnPickups();
 
 }
 
@@ -65,4 +69,25 @@ void GameManager::SpawnEnemies()
 
 		rusherSpawnTimer = 0.f;
 	}
+}
+
+void GameManager::SpawnPickups()
+{
+	pickupSpawnTimer += 0.5f;
+
+	if(pickupSpawnTimer >= pickupSpawnTimerMax)
+	{
+		pickupsToSpawn = 1;
+
+		for(int i = 0; i < pickupsToSpawn; ++i)
+		{
+			world.CreateEntity<WeaponPickup>();
+			world.CreateEntity<ShieldPickup>();
+
+		}
+
+		pickupSpawnTimer = 0.f;
+	}
+
+
 }

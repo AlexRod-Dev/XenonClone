@@ -1,0 +1,75 @@
+#include "CompanionPickup.h"
+#include "GameManager.h"
+#include "Companion.h"
+#include "ColliderComponent.h"
+#include "TransformComponent.h"
+#include "SpriteComponent.h"
+#include "LogOutput.h"
+#include "Player.h"
+
+
+CompanionPickup::CompanionPickup()
+{
+	startPosition = Vector2D(1050, rand() % 750);
+	speed = 0.f;
+}
+
+CompanionPickup::~CompanionPickup()
+{
+}
+
+void CompanionPickup::Init()
+{
+	__super::Init();
+
+	AddComponent<TransformComponent>(startPosition.x, startPosition.y);
+	AddComponent<SpriteComponent>("../Assets/graphics/cloneA.bmp", false, false);
+	AddComponent<ColliderComponent>(this, 64, 64);
+
+	SetName("CompanionPickup");
+	SetTag(Tag::Pickup);
+
+	speed = 2.5f;
+	transformComponent = &GetComponent<TransformComponent>();
+}
+
+void CompanionPickup::Update()
+{
+	__super::Update();
+
+
+	transformComponent->velocity.x = -1 * speed;
+
+
+	if (transformComponent->position.x > 1000)
+	{
+		Destroy();
+	}
+}
+
+void CompanionPickup::BeginOverlap(Entity* otherEntity)
+{
+	if (otherEntity->GetTag() == Tag::Player)
+	{
+		Player* player = dynamic_cast<Player*>(otherEntity);
+
+		if (player)
+		{
+			World& world = GameEngine::GetEngine()->GetWorld();
+			if (&world)
+			{
+				world.QueueAction([&]()
+					{
+						player->AttachCompanion();
+					});
+			}
+		}
+
+		Destroy();
+	}
+}
+
+void CompanionPickup::EndOverlap(Entity* otherEntity)
+{
+}
+

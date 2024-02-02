@@ -9,7 +9,7 @@
 
 Loner::Loner()
 {
-	startPosition = Vector2D(1000.f, rand() % 400);
+	startPosition = Vector2D(1050.f, rand() % 750);
 	speed = 0.f;
 
 	fireTimer = 0.f;
