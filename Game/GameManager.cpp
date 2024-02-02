@@ -7,8 +7,9 @@
 #include "Loner.h"
 #include "Rusher.h"
 #include "WeaponPickup.h"
-#include "CompanionPickup.h"
 #include "ShieldPickup.h"
+#include "BigAsteroid.h"
+#include "MetalAsteroid.h"
 
 GameManager* GameManager::m_instance = nullptr;
 
@@ -27,6 +28,7 @@ void GameManager::Update()
 
 	SpawnEnemies();
 	SpawnPickups();
+	SpawnAsteroids();
 
 }
 
@@ -83,11 +85,28 @@ void GameManager::SpawnPickups()
 		{
 			world.CreateEntity<WeaponPickup>();
 			world.CreateEntity<ShieldPickup>();
-
 		}
 
 		pickupSpawnTimer = 0.f;
 	}
 
 
+}
+
+void GameManager::SpawnAsteroids()
+{
+	asteroidSpawnTimer += 0.5f;
+
+	if(asteroidSpawnTimer >= asteroidSpawnTimerMax)
+	{
+		asteroidsToSpawn = rand() % 1 + 2;
+
+		for(int i = 0; i < asteroidsToSpawn; ++i)
+		{
+			world.CreateEntity<BigAsteroid>();
+			world.CreateEntity<MetalAsteroid>();
+		}
+
+		asteroidSpawnTimer = 0.f;
+	}
 }

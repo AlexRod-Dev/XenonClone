@@ -28,6 +28,8 @@ public:
 
 		pickupsToSpawn = 0;
 
+		asteroidSpawnTimer = 0.f;
+		asteroidSpawnTimerMax = 250.f + (rand() % (270 - 250) + 1);
 	};
 
 	~GameManager();
@@ -56,6 +58,10 @@ public:
 
 	void SpawnPickups();
 
+	void SpawnAsteroids();
+
+	void EraseLife();
+
 
 
 private:
@@ -64,6 +70,7 @@ private:
 	World& world = GameEngine::GetEngine()->GetWorld();
 
 	Player* player;
+
 
 	int indexToRemove;
 
@@ -80,4 +87,9 @@ private:
 	float pickupSpawnTimerMax;
 
 	int pickupsToSpawn;
+
+	float asteroidSpawnTimer;
+	float asteroidSpawnTimerMax;
+
+	int asteroidsToSpawn;
 };

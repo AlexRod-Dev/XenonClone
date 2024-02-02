@@ -54,7 +54,7 @@ void PlayerProjectileMedium::Update()
 
 void PlayerProjectileMedium::BeginOverlap(Entity* otherEntity)
 {
-	if (otherEntity->GetTag() == Tag::Enemy)
+	if (otherEntity->GetTag() == Tag::Enemy || otherEntity->GetTag() == Tag::Asteroid)
 	{
 		otherEntity->TakeDamage(this->projectileDamage);
 		Destroy();

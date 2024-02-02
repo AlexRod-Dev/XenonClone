@@ -51,7 +51,7 @@ public:
 
 	void AttachCompanion();
 
-	//void ResetLife();
+	void ResetLife();
 
 	bool IsAlive();
 

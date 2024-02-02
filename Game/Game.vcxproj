@@ -19,13 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Asteroid.cpp" />
+    <ClCompile Include="BigAsteroid.cpp" />
     <ClCompile Include="Companion.cpp" />
-    <ClCompile Include="CompanionPickup.cpp" />
     <ClCompile Include="EnemyProjectile.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="Level.cpp" />
     <ClCompile Include="Loner.cpp" />
+    <ClCompile Include="MediumAsteroid.cpp" />
+    <ClCompile Include="MetalAsteroid.cpp" />
     <ClCompile Include="Pickup.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="PlayerProjectile.cpp" />
@@ -33,15 +36,19 @@
     <ClCompile Include="PlayerProjectileMedium.cpp" />
     <ClCompile Include="Rusher.cpp" />
     <ClCompile Include="ShieldPickup.cpp" />
+    <ClCompile Include="SmallAsteroid.cpp" />
     <ClCompile Include="WeaponPickup.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Asteroid.h" />
+    <ClInclude Include="BigAsteroid.h" />
     <ClInclude Include="Companion.h" />
-    <ClInclude Include="CompanionPickup.h" />
     <ClInclude Include="EnemyProjectile.h" />
     <ClInclude Include="GameManager.h" />
     <ClInclude Include="Level.h" />
     <ClInclude Include="Loner.h" />
+    <ClInclude Include="MediumAsteroid.h" />
+    <ClInclude Include="MetalAsteroid.h" />
     <ClInclude Include="Pickup.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="PlayerProjectile.h" />
@@ -49,6 +56,7 @@
     <ClInclude Include="PlayerProjectileMedium.h" />
     <ClInclude Include="Rusher.h" />
     <ClInclude Include="ShieldPickup.h" />
+    <ClInclude Include="SmallAsteroid.h" />
     <ClInclude Include="WeaponPickup.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
