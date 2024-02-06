@@ -221,13 +221,13 @@ void Player::AttachCompanion()
 	}
 }
 
-//void Player::ResetLife()
-//{
-//	this->hp = this->maxHp;
-//	playerLives--;
-//	GameManager::GetInstance()->EraseLife();
-//	DebugLog(LogMessage::WARNING, "Player Lives: " + std::to_string(playerLives));
-//}
+void Player::ResetLife()
+{
+	this->hp = this->maxHp;
+	playerLives--;
+	GameManager::GetInstance()->EraseLife();
+	DebugLog(LogMessage::WARNING, "Player Lives: " + std::to_string(playerLives));
+}
 
 void Player::TakeDamage(float damage)
 {
@@ -240,7 +240,7 @@ void Player::TakeDamage(float damage)
 	{
 		if (playerLives > 0)
 		{
-			//ResetLife();
+			ResetLife();
 		}
 		else if (playerLives <= 0)
 		{

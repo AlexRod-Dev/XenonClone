@@ -6,6 +6,7 @@
 #include <vector>
 
 class Player;
+class PlayerLifeUI;
 
 
 class GameManager  : public GameObject
@@ -70,6 +71,8 @@ public:
 
 	void EraseLife();
 
+	void LoadUI();
+
 
 
 private:
@@ -78,7 +81,7 @@ private:
 	World& world = GameEngine::GetEngine()->GetWorld();
 
 	Player* player;
-
+	std::vector<PlayerLifeUI*> playerLives;
 
 	int indexToRemove;
 

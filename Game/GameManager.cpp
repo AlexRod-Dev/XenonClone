@@ -1,6 +1,7 @@
 #include "GameManager.h"
 #include "Level.h"
 #include "EntityComponentSystem.h"
+#include <LogOutput.h>
 #include "World.h"
 #include "Level.h"
 #include "Player.h"
@@ -11,6 +12,7 @@
 #include "BigAsteroid.h"
 #include "MetalAsteroid.h"
 #include "Rocks.h"
+#include "PlayerLifeUI.h"
 
 GameManager* GameManager::m_instance = nullptr;
 
@@ -22,6 +24,7 @@ GameManager::~GameManager()
 void GameManager::Init()
 {
 	CreateLevel();
+	LoadUI();
 }
 
 void GameManager::Update()
@@ -123,5 +126,25 @@ void GameManager::SpawnRocks()
 		rocksSpawnTimer = 150 + (rand() % (200 - 150) + 1);
 		rocksSpawnTimer = 0.f;
 
+	}
+}
+
+void GameManager::LoadUI()
+{
+	for (int i = 0; i < 3; ++i)
+	{
+		playerLives.push_back(world.CreateEntity<PlayerLifeUI>(Vector2D(20 + (i * 60), 700)));
+	}
+
+	DebugLog(LogMessage::WARNING, "Loaded Player Life UI");
+
+}
+
+void GameManager::EraseLife()
+{
+	if (playerLives.size() > 0)
+	{
+		playerLives.back()->Destroy();
+		playerLives.pop_back();
 	}
 }
