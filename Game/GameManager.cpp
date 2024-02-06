@@ -10,6 +10,7 @@
 #include "ShieldPickup.h"
 #include "BigAsteroid.h"
 #include "MetalAsteroid.h"
+#include "Rocks.h"
 
 GameManager* GameManager::m_instance = nullptr;
 
@@ -25,10 +26,11 @@ void GameManager::Init()
 
 void GameManager::Update()
 {
-
+	SpawnRocks();
 	SpawnEnemies();
 	SpawnPickups();
 	SpawnAsteroids();
+
 
 }
 
@@ -108,5 +110,18 @@ void GameManager::SpawnAsteroids()
 		}
 
 		asteroidSpawnTimer = 0.f;
+	}
+}
+
+void GameManager::SpawnRocks()
+{
+	rocksSpawnTimer += 0.5f;
+
+	if(rocksSpawnTimer >= rocksSpawnTimerMax)
+	{
+		world.CreateEntity<Rocks>(true);
+		rocksSpawnTimer = 150 + (rand() % (200 - 150) + 1);
+		rocksSpawnTimer = 0.f;
+
 	}
 }

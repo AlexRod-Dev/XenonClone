@@ -17,6 +17,9 @@ public:
 
 		indexToRemove = 0;
 
+		enemiesToSpawn = 0;
+		pickupsToSpawn = 0;
+
 		lonerSpawnTimer = 0.f;
 		lonerSpawnTimerMax = 100.f + (rand() % (110 - 100) + 1);
 
@@ -30,6 +33,9 @@ public:
 
 		asteroidSpawnTimer = 0.f;
 		asteroidSpawnTimerMax = 250.f + (rand() % (270 - 250) + 1);
+
+		rocksSpawnTimer = 150.f;
+		rocksSpawnTimerMax = 150 + (rand() % (200 - 150) + 1);
 	};
 
 	~GameManager();
@@ -59,6 +65,8 @@ public:
 	void SpawnPickups();
 
 	void SpawnAsteroids();
+
+	void SpawnRocks();
 
 	void EraseLife();
 
@@ -92,4 +100,7 @@ private:
 	float asteroidSpawnTimerMax;
 
 	int asteroidsToSpawn;
+
+	float rocksSpawnTimer;
+	float rocksSpawnTimerMax;
 };

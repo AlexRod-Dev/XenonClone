@@ -34,6 +34,7 @@
     <ClCompile Include="PlayerProjectile.cpp" />
     <ClCompile Include="PlayerProjectileHeavy.cpp" />
     <ClCompile Include="PlayerProjectileMedium.cpp" />
+    <ClCompile Include="Rocks.cpp" />
     <ClCompile Include="Rusher.cpp" />
     <ClCompile Include="ShieldPickup.cpp" />
     <ClCompile Include="SmallAsteroid.cpp" />
@@ -54,6 +55,7 @@
     <ClInclude Include="PlayerProjectile.h" />
     <ClInclude Include="PlayerProjectileHeavy.h" />
     <ClInclude Include="PlayerProjectileMedium.h" />
+    <ClInclude Include="Rocks.h" />
     <ClInclude Include="Rusher.h" />
     <ClInclude Include="ShieldPickup.h" />
     <ClInclude Include="SmallAsteroid.h" />

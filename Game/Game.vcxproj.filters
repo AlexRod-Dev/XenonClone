@@ -102,6 +102,9 @@
     <ClCompile Include="MetalAsteroid.cpp">
       <Filter>Source Files\Asteroid</Filter>
     </ClCompile>
+    <ClCompile Include="Rocks.cpp">
+      <Filter>Source Files\Asteroid</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Level.h">
@@ -156,6 +159,9 @@
       <Filter>Header Files\Asteroids</Filter>
     </ClInclude>
     <ClInclude Include="MetalAsteroid.h">
+      <Filter>Header Files\Asteroids</Filter>
+    </ClInclude>
+    <ClInclude Include="Rocks.h">
       <Filter>Header Files\Asteroids</Filter>
     </ClInclude>
   </ItemGroup>
