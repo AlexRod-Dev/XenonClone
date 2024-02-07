@@ -54,7 +54,7 @@ void Rocks::Update()
 
 	transformComponent->velocity.x = -1 * scrollingSpeed;
 
-	if (transformComponent->position.x > 2000)
+	if (transformComponent->position.x < -1900)
 	{
 		Destroy();
 	}

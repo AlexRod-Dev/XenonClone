@@ -1,11 +1,1 @@
-﻿  PlayerLifeUI.cpp
-C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(219,52): warning C4834: discarding return value of function with 'nodiscard' attribute
-C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.h(8,18): warning C4099: 'SDL_Texture': type name first seen using 'struct' now seen using 'class'
-C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_render.h(137,8): message : see declaration of 'SDL_Texture'
-C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.h(9,15): warning C4099: 'SDL_Rect': type name first seen using 'struct' now seen using 'class'
-C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_rect.h(77,16): message : see declaration of 'SDL_Rect'
-  UI.cpp
-C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(219,52): warning C4834: discarding return value of function with 'nodiscard' attribute
-  Generating Code...
-SDL2_image.lib(SDL2_image.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
-  Engine.vcxproj -> C:\Users\Alex\Documents\Github\XenonClone\x64\Debug\Engine.lib
+﻿  Engine.vcxproj -> C:\Users\Alex\Documents\Github\XenonClone\x64\Debug\Engine.lib

@@ -31,6 +31,7 @@
     <ClCompile Include="MetalAsteroid.cpp" />
     <ClCompile Include="Pickup.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerLifeUI.cpp" />
     <ClCompile Include="PlayerProjectile.cpp" />
     <ClCompile Include="PlayerProjectileHeavy.cpp" />
     <ClCompile Include="PlayerProjectileMedium.cpp" />
@@ -38,6 +39,7 @@
     <ClCompile Include="Rusher.cpp" />
     <ClCompile Include="ShieldPickup.cpp" />
     <ClCompile Include="SmallAsteroid.cpp" />
+    <ClCompile Include="UI.cpp" />
     <ClCompile Include="WeaponPickup.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -52,6 +54,7 @@
     <ClInclude Include="MetalAsteroid.h" />
     <ClInclude Include="Pickup.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerLifeUI.h" />
     <ClInclude Include="PlayerProjectile.h" />
     <ClInclude Include="PlayerProjectileHeavy.h" />
     <ClInclude Include="PlayerProjectileMedium.h" />
@@ -59,6 +62,7 @@
     <ClInclude Include="Rusher.h" />
     <ClInclude Include="ShieldPickup.h" />
     <ClInclude Include="SmallAsteroid.h" />
+    <ClInclude Include="UI.h" />
     <ClInclude Include="WeaponPickup.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

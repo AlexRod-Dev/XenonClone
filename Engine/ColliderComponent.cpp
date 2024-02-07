@@ -71,15 +71,3 @@ void ColliderComponent::Update()
 			m_parent->GetComponent<TransformComponent>().position.y), m_body->GetAngle());
 	}
 }
-
-//void ColliderComponent::SetCollisionFilter(CollisionFilter collisionFilter, unsigned short maskBit)
-//{
-//	m_collisionFilter = collisionFilter;	
-//
-//	b2Filter filter;	
-//	filter.categoryBits = m_collisionFilter;
-//	filter.maskBits = maskBit;
-//	filter.groupIndex = 0;
-//
-//	m_fixture->SetFilterData(filter);
-//}

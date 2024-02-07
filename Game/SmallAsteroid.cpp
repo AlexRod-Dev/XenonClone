@@ -37,7 +37,7 @@ void SmallAsteroid::Update()
 
 	transformComponent->velocity.x = -1 * speed;
 
-	if (transformComponent->position.x > 1000 || transformComponent->position.y < -50)
+	if (transformComponent->position.x < -100 )
 	{
 		Destroy();
 	}

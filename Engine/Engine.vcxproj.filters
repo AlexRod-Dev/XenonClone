@@ -49,12 +49,6 @@
     <Filter Include="Source Files\Objects">
       <UniqueIdentifier>{de882356-bc19-4b97-9f70-fe9ce9283162}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\UI">
-      <UniqueIdentifier>{43b6d0c9-7864-4c1e-ac0f-bc4a08678846}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\UI">
-      <UniqueIdentifier>{f6d66b10-49bf-4c4f-9abe-651c0d2bc084}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameEngine.h">
@@ -135,12 +129,6 @@
     <ClInclude Include="B2DebugDraw.h">
       <Filter>Header Files\Utilities</Filter>
     </ClInclude>
-    <ClInclude Include="UI.h">
-      <Filter>Header Files\UI</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerLifeUI.h">
-      <Filter>Header Files\UI</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameEngine.cpp">
@@ -202,12 +190,6 @@
     </ClCompile>
     <ClCompile Include="Projectile.cpp">
       <Filter>Source Files\Objects</Filter>
-    </ClCompile>
-    <ClCompile Include="UI.cpp">
-      <Filter>Source Files\UI</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayerLifeUI.cpp">
-      <Filter>Source Files\UI</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

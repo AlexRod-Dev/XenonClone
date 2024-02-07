@@ -135,6 +135,10 @@ void Player::Update()
 		Fire();
 		FireCooldown();
 	}
+	else if (Input::GetInstance()->GetKeyUp(SDL_SCANCODE_SPACE) || Input::GetInstance()->GetButtonUp(SDL_CONTROLLER_BUTTON_A))
+	{
+		isFiring = false;
+	}
 }
 
 void Player::Fire()
