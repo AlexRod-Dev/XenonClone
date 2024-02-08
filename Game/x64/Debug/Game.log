@@ -1,18 +1,104 @@
-﻿  GameManager.cpp
+﻿  Asteroid.cpp
 C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(219,52): warning C4834: discarding return value of function with 'nodiscard' attribute
 C:\Users\Alex\Documents\Github\XenonClone\Game\GameManager.h(28,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 C:\Users\Alex\Documents\Github\XenonClone\Game\GameManager.h(39,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\Alex\Documents\Github\XenonClone\Game\Rocks.h(19,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Alex\Documents\Github\XenonClone\Game\Rocks.h(20,23): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\Alex\Documents\Github\XenonClone\Game\GameManager.cpp(126,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\Alex\Documents\Github\XenonClone\Game\GameManager.cpp(136,70): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  PlayerLifeUI.cpp
+  BigAsteroid.cpp
 C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(219,52): warning C4834: discarding return value of function with 'nodiscard' attribute
 C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.h(8,18): warning C4099: 'SDL_Texture': type name first seen using 'struct' now seen using 'class'
 C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_render.h(137,8): message : see declaration of 'SDL_Texture'
 C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.h(9,15): warning C4099: 'SDL_Rect': type name first seen using 'struct' now seen using 'class'
 C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_rect.h(77,16): message : see declaration of 'SDL_Rect'
-  UI.cpp
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(5,19): warning C4099: 'SDL_Renderer': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_render.h(131,8): message : see declaration of 'SDL_Renderer'
+C:\Users\Alex\Documents\Github\XenonClone\Game\GameManager.h(28,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Game\GameManager.h(39,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Game\BigAsteroid.cpp(16,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Game\BigAsteroid.cpp(81,22): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Game\BigAsteroid.cpp(93,78): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Game\BigAsteroid.cpp(94,62): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Game\BigAsteroid.cpp(98,78): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Game\BigAsteroid.cpp(99,62): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Game\BigAsteroid.cpp(103,78): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Game\BigAsteroid.cpp(104,62): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(231,33): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Alex\Documents\Github\XenonClone\Game\BigAsteroid.cpp(32,46): message : see reference to function template instantiation 'T &Entity::AddComponent<ColliderComponent,BigAsteroid*,int,int>(BigAsteroid *&&,int &&,int &&)' being compiled
+          with
+          [
+              T=ColliderComponent
+          ]
+  GameManager.cpp
 C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(219,52): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\Alex\Documents\Github\XenonClone\Game\GameManager.h(28,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Game\GameManager.h(39,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Game\Rocks.h(19,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Game\Rocks.h(20,23): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Game\GameManager.cpp(123,70): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Game\GameManager.cpp(137,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  MediumAsteroid.cpp
+C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(219,52): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.h(8,18): warning C4099: 'SDL_Texture': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_render.h(137,8): message : see declaration of 'SDL_Texture'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.h(9,15): warning C4099: 'SDL_Rect': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_rect.h(77,16): message : see declaration of 'SDL_Rect'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\GameEngine.h(5,19): warning C4099: 'SDL_Renderer': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_render.h(131,8): message : see declaration of 'SDL_Renderer'
+C:\Users\Alex\Documents\Github\XenonClone\Game\GameManager.h(28,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Game\GameManager.h(39,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Game\MediumAsteroid.cpp(13,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Game\MediumAsteroid.cpp(96,22): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Game\MediumAsteroid.cpp(109,62): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Game\MediumAsteroid.cpp(111,78): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Game\MediumAsteroid.cpp(116,62): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Game\MediumAsteroid.cpp(118,78): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Game\MediumAsteroid.cpp(123,62): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Game\MediumAsteroid.cpp(125,78): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(231,33): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Alex\Documents\Github\XenonClone\Game\MediumAsteroid.cpp(29,46): message : see reference to function template instantiation 'T &Entity::AddComponent<ColliderComponent,MediumAsteroid*,int,int>(MediumAsteroid *&&,int &&,int &&)' being compiled
+          with
+          [
+              T=ColliderComponent
+          ]
+  MetalAsteroid.cpp
+C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(219,52): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.h(8,18): warning C4099: 'SDL_Texture': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_render.h(137,8): message : see declaration of 'SDL_Texture'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.h(9,15): warning C4099: 'SDL_Rect': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_rect.h(77,16): message : see declaration of 'SDL_Rect'
+C:\Users\Alex\Documents\Github\XenonClone\Game\MetalAsteroid.cpp(11,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(231,33): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Alex\Documents\Github\XenonClone\Game\MetalAsteroid.cpp(26,46): message : see reference to function template instantiation 'T &Entity::AddComponent<ColliderComponent,MetalAsteroid*,int,int>(MetalAsteroid *&&,int &&,int &&)' being compiled
+          with
+          [
+              T=ColliderComponent
+          ]
+  SmallAsteroid.cpp
+C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(219,52): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.h(8,18): warning C4099: 'SDL_Texture': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_render.h(137,8): message : see declaration of 'SDL_Texture'
+C:\Users\Alex\Documents\Github\XenonClone\Engine\SpriteComponent.h(9,15): warning C4099: 'SDL_Rect': type name first seen using 'struct' now seen using 'class'
+C:\Users\Alex\Documents\Github\XenonClone\include\SDL2\SDL_rect.h(77,16): message : see declaration of 'SDL_Rect'
+C:\Users\Alex\Documents\Github\XenonClone\Game\SmallAsteroid.cpp(8,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Documents\Github\XenonClone\Engine\EntityComponentSystem.h(231,33): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Alex\Documents\Github\XenonClone\Game\SmallAsteroid.cpp(25,46): message : see reference to function template instantiation 'T &Entity::AddComponent<ColliderComponent,SmallAsteroid*,int,int>(SmallAsteroid *&&,int &&,int &&)' being compiled
+          with
+          [
+              T=ColliderComponent
+          ]
   Generating Code...
   Game.vcxproj -> C:\Users\Alex\Documents\Github\XenonClone\x64\Debug\Game.exe

@@ -8,10 +8,9 @@
 #include <stdlib.h>
 #include "Components.h"
 #include "Input.h"
-#include "Manager.h"
 #include "World.h"
 #include "LogOutput.h"
-#include "ManagerRegistry.h"
+
 
 Renderer* GameEngine::m_renderer = nullptr;
 GameEngine* GameEngine::m_engine = nullptr;

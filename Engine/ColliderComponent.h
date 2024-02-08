@@ -1,9 +1,6 @@
 #pragma once
 
 #include "Components.h"
-#include "EntityFilters.h"
-
-//using CollisionFilter = unsigned short;
 
 class b2World;
 class b2Body;
@@ -21,15 +18,11 @@ public:
 	/// Set the collision filter for this body, eg. EntityCategory::PLAYER_BULLET 
 	/// @param PLAYER_BULLET.
 	/// @param ENEMY.
-	/*void SetCollisionFilter(CollisionFilter collisionFilter, unsigned short maskBit);*/
+	
 
 	b2Body* GetBody() { return m_body; }
 
-	/// Returns the collision filter for this body
-	//CollisionFilter GetCollisionFilter() 
-	//{
-	//	return m_collisionFilter;
-	//}
+	
 
 	float m_bodyX;
 	float m_bodyY;

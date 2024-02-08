@@ -29,11 +29,11 @@ void GameManager::Init()
 
 void GameManager::Update()
 {
-	SpawnRocks();
+	
 	SpawnEnemies();
 	SpawnPickups();
 	SpawnAsteroids();
-
+	SpawnRocks();
 
 }
 
@@ -116,6 +116,17 @@ void GameManager::SpawnAsteroids()
 	}
 }
 
+void GameManager::LoadUI()
+{
+	for (int i = 0; i < 3; ++i)
+	{
+		playerLives.push_back(world.CreateEntity<PlayerLifeUI>(Vector2D(20 + (i * 60), 700)));
+	}
+
+	DebugLog(LogMessage::WARNING, "Loaded Player Life UI");
+
+}
+
 void GameManager::SpawnRocks()
 {
 	rocksSpawnTimer += 0.5f;
@@ -129,16 +140,7 @@ void GameManager::SpawnRocks()
 	}
 }
 
-void GameManager::LoadUI()
-{
-	for (int i = 0; i < 3; ++i)
-	{
-		playerLives.push_back(world.CreateEntity<PlayerLifeUI>(Vector2D(20 + (i * 60), 700)));
-	}
 
-	DebugLog(LogMessage::WARNING, "Loaded Player Life UI");
-
-}
 
 void GameManager::EraseLife()
 {

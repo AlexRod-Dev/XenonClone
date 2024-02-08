@@ -25,7 +25,6 @@ void Rocks::Init()
 	if (whichRocks == 0)
 	{
 		horizontalMargin = 1200;
-		//verticalMargin =(rand() % (0 - 200 + 1));
 		verticalMargin = -100;
 		std::cout << horizontalMargin << std::endl;
 		std::cout << verticalMargin << std::endl;
