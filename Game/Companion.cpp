@@ -135,8 +135,8 @@ void Companion::TakeDamage(float damage)
 {
 	this->hp -= damage;
 
-	DebugLog(LogMessage::WARNING, "Companion took " + std::to_string(damage) + " damage");
-	DebugLog(LogMessage::WARNING, "Companion has " + std::to_string(this->hp) + " health");
+	DebugLog(LogMessage::WARNING, "Companion took " + std::to_string((int) damage) + " damage");
+	DebugLog(LogMessage::WARNING, "Companion has " + std::to_string((int) this->hp) + " health");
 
 	if (this->hp <= 0 || !spaceship->IsAlive())
 	{
@@ -150,7 +150,7 @@ void Companion::BoostHealth(float health)
 	if (this->hp < this->maxHp)
 	{
 		this->hp += health;
-		DebugLog(LogMessage::WARNING, "Companion received " + std::to_string(health) + " health");
+		DebugLog(LogMessage::WARNING, "Companion received " + std::to_string((int)health) + " health");
 	}
 	else
 	{

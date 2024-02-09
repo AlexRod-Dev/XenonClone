@@ -25,6 +25,7 @@ void MetalAsteroid::Init()
 	AddComponent<SpriteComponent>("../Assets/graphics/MAster96A.bmp", false, false);
 	AddComponent<ColliderComponent>(this, 90, 90);
 
+
 	SetName("MetalAsteroid");
 	SetTag(Tag::Asteroid);
 

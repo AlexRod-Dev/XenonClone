@@ -236,9 +236,9 @@ void Player::ResetLife()
 void Player::TakeDamage(float damage)
 {
 	this->hp -= damage;
-
-	DebugLog(LogMessage::WARNING, "Player took " + std::to_string(damage) + " damage");
-	DebugLog(LogMessage::WARNING, "Player has " + std::to_string(this->hp) + " health");
+	
+	DebugLog(LogMessage::WARNING, "Player took " + std::to_string((int) damage) + " damage");
+	DebugLog(LogMessage::WARNING, "Player has " + std::to_string((int) this->hp) + " health");
 
 	if (this->hp <= 0)
 	{
@@ -267,7 +267,7 @@ void Player::BoostHealth(float health)
 	if (this->hp < this->maxHp)
 	{
 		this->hp += health;
-		DebugLog(LogMessage::WARNING, "Player received " + std::to_string(health) + " health");
+		DebugLog(LogMessage::WARNING, "Player received " + std::to_string((int)health) + " health");
 	}
 	else
 	{

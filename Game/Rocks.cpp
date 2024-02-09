@@ -21,13 +21,12 @@ void Rocks::Init()
 	SetName("Rocks");
 
 	whichRocks = rand() % 2;
-	std::cout << whichRocks << std::endl;
+
 	if (whichRocks == 0)
 	{
 		horizontalMargin = 1200;
 		verticalMargin = -100;
-		std::cout << horizontalMargin << std::endl;
-		std::cout << verticalMargin << std::endl;
+		
 		AddComponent<TransformComponent>(horizontalMargin, verticalMargin);
 		AddComponent<SpriteComponent>("../Assets/graphics/BlocksA.bmp", false, false);
 	}

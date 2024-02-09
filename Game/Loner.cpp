@@ -9,7 +9,7 @@
 
 Loner::Loner()
 {
-	startPosition = Vector2D(1050.f, rand() % 750);
+	startPosition = Vector2D( rand() % 950,800.f);
 	speed = 0.f;
 
 	fireTimer = 0.f;
@@ -46,11 +46,11 @@ void Loner::Update()
 	{
 		__super::Update();
 
-		transformComponent->velocity.x = -1 * speed;
+		transformComponent->velocity.y = -1 * speed;
 
 		Fire();
 
-		if (transformComponent->position.x < -50)
+		if (transformComponent->position.y < -50)
 		{
 			Destroyed(this);
 		}
