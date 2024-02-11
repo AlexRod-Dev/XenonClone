@@ -1,0 +1,10 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (SetupOpenGL.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Cg1.cpp
+C:\Users\Alex\Desktop\CG1\SetupOpenGL\Cg1.cpp(22,21): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+C:\Users\Alex\Desktop\CG1\SetupOpenGL\Cg1.cpp(74,14): warning C4244: 'initializing': conversion from 'Sint32' to 'float', possible loss of data
+C:\Users\Alex\Desktop\CG1\SetupOpenGL\Cg1.cpp(75,14): warning C4244: 'initializing': conversion from 'Sint32' to 'float', possible loss of data
+C:\Users\Alex\Desktop\CG1\SetupOpenGL\Cg1.cpp(207,120): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Alex\Desktop\CG1\SetupOpenGL\Cg1.cpp(207,107): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Alex\Desktop\CG1\SetupOpenGL\Cg1.cpp(449,19): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Desktop\CG1\SetupOpenGL\Cg1.cpp(481,69): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  SetupOpenGL.vcxproj -> C:\Users\Alex\Desktop\CG1\x64\Debug\CG1.exe
